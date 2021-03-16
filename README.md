@@ -2,8 +2,11 @@
  Регистрация и авторизация Jetstream в laravel 8
 
 composer require laravel/jetstream
+
 php artisan jetstream:install inertia
+
 npm install
+
 npm run dev
 
 Настройка подключения к базе данных в .env
@@ -18,3 +21,5 @@ https://github.com/Laravel-Lang/lang
 
 Скопировать из vendor/laravel-lang/lang в resources/lang,
 из src/ru папку языка и из json/ru файл
+
+https://jetstream.laravel.com/ - официальная документация Laravel Jetstream.
